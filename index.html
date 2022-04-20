@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="left">
+            <div class="floatBox"></div>
+            <div class="float">
+                <img src="images/odin-lined.png">
+                <h1>Odin</h1>
+            </div>
+            <div class="refBox"></div>
+            <p class="ref">Photo by <a href="https://www.pexels.com/@introspectivedsgn/" target="_blank">Erik Mclean</a>
+                on <a href="https://www.pexels.com/" target="_blank">Pexels</a></p>
+        </div>
+        <div class="right">
+            <h1>The time is now to enlist and explore what Midgard has to offer! Carve out your own kingdom, 
+                seek personal glory, and find your path to Valhalla. Sign up
+                with Odin and see what's beyond your local fjord. 
+            </h1>
+            <h2>You know you're ready!</h2>
+            <form>
+                <h3></h3>
+                <div class="name">
+                    <div class="box">
+                        <label for="fname">First Name</label><br>
+                        <input type="text" id="fname" name="fname" required>
+                    </div>
+                    <div class="box">
+                        <label for="lname">Last Name</label><br>
+                        <input type="text" id="lname" name="lname" required>
+                    </div>
+                </div>
+                <div class="contact">
+                    <div class="box">
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="box">
+                        <label for="phone">Phone Number</label><br>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9] {3} - [0-9] {3} - [0-9] {4]" required>
+                    </div>
+                </div>
+                <div class="mail">
+                    <div class="box">
+                        <label for="user_password">Password</label><br>
+                        <input type="password" id="user_password" name="user_password" required>
+                    </div>
+                    <div class="box">
+                        <label for="user_password">Confirm Password</label><br>
+                        <input type="password" id="user_password" name="user_password" required>
+                    </div>
+                </div>
+                <div class="signUp">
+                    <button type="submit" class="button">Create Account</button>
+                    <p> Already been on a raid? Log in<a href="#"> here</a></p>
+                </div>
+            </form>
+        </div>
+    </div>    
+</body>
+</html>
