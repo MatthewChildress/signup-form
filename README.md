@@ -11,4 +11,4 @@ I wanted to incorporate more CSS pseudo classes for practice but felt it took aw
 
 
 
-<a href="https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form">Project Prompt</a>
+<a href="https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form" target="_blank">Project Prompt</a>
