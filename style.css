@@ -17,7 +17,7 @@ body {
 .left {
     grid-column: 1 / 2;
 
-    background-image: url("images/shield.webp");
+    background-image: url("shield.webp");
     background-size:cover;
     background-repeat:no-repeat;
 }
