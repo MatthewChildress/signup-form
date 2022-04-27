@@ -3,7 +3,7 @@
 body {
     margin:0px;
     background-color:#1a1919;
-    color:rgb(165, 30, 30);
+    color:rgb(222, 228, 228);
     font-family:'Montserrat', sans-serif;
 }
 
@@ -17,7 +17,7 @@ body {
 .left {
     grid-column: 1 / 2;
 
-    background-image: url("images/shield.jpg");
+    background-image: url("images/shield.webp");
     background-size:cover;
     background-repeat:no-repeat;
 }
@@ -39,14 +39,6 @@ body {
     align-items:center;
     font-size:2em;
 
-}
-
-.left .float img {
-    width:15%;
-}
-
-.left .float h1 {
-    color:rgb(222, 228, 228);
 }
 
 .left .refBox {
@@ -75,6 +67,8 @@ body {
 
 .right h1 {
     padding-right:10%;
+    font-variant:small-caps;
+    line-height: 1.7;
 }
 
 h2 {
